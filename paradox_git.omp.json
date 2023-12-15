@@ -55,7 +55,7 @@
           },
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
-          "template": " {{ .HEAD }} {{ if or (.Working.Changed) (.Staging.Changed) }}\udb82\udd92 {{ end }}",
+          "template": " {{ .HEAD }} {{ if or (.Working.Changed) (.Staging.Changed) }}+{{ end }}",
           "type": "git"
         },
         {
